@@ -196,13 +196,6 @@ while True:
             os.system(f"start {run_input}")
         except Exception as e:
             print(Fore.RED + f"Error running {run_input}, {e} :(")
-    elif input_command == "dd":
-        print(Fore.GREEN + f"Opened original site dodi...")
-        webbrowser.open("https://dodi-repacks.site")
-    elif input_command == "fg":
-        print(Fore.GREEN + f"Opened original site fitgirl...")
-        webbrowser.open("https://fitgirl-repacks.site/popular-repacks/")
-    elif input_command == "cat pl":
         try:
             for proc in psutil.process_iter(['pid', 'name', 'cpu_percent', 'memory_info']):
                 print(Fore.CYAN + f"PID: {proc.info['pid']}, Name: {proc.info['name']}, CPU%: {proc.info['cpu_percent']}%, Memory: {proc.info['memory_info'].rss / (1024 * 1024):.2f} MB")

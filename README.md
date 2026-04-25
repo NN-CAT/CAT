@@ -38,8 +38,6 @@ CAT-Shell combines essential system commands, shortcuts, and a built-in download
 - `ed` — Fast Notepad
 - `sd` — Fast shutdown
 - `run` — Fast run program
-- `dd` — Fast Dodi repacks (Original)
-- `fg` — Fast Fitgirl repacks (Original)
 - `play` — Fast play music
 - `df` — Fast download file in current directory (`hl df` for more info)
 
